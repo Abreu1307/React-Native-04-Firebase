@@ -16,11 +16,12 @@ const ItemLista = ({data, detalhe}) => {
             <Text style={estiloItemLista.itemSubTitulo}> {item.autor} ({item.anoPublicacao}) </Text>
             
             <LinearGradient colors={['#92afd7', '#92afd7', '#14417b']}>
-                <Image 
+                <Text> </Text>
+                {/*<Image 
                     resizeMode='contain'
                     style={estiloItemLista.itemFoto}
                     source={item.foto}
-                />
+                /> */}
             </LinearGradient>
 
         </TouchableOpacity>
